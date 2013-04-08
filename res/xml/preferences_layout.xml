@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <CheckBoxPreference 
+        android:key="@string/activate_bluetooth_checkbox_key"
+        android:title="@string/activate_bluetooth"
+        android:summaryOn="@string/bluetooth_on"
+        android:summaryOff="@string/bluetooth_off" />"
+    
+    <PreferenceCategory
+        android:title="@string/setup_controller">
+        <Preference 
+            android:key="@string/pair_controller_preference_key"
+            android:title="@string/pair_with_controller"
+            android:summary="@string/no_controller_paired" />"
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:title="@string/setup_ime">
+        <Preference 
+            android:key="@string/select_ime_preference_key"
+            android:title="@string/select_ime"
+            android:summary="@string/select_ime_instructions"/>
+    </PreferenceCategory>
+    
+</PreferenceScreen>

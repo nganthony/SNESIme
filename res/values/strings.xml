@@ -2,7 +2,22 @@
 <resources>
 
     <string name="app_name">SNESIme</string>
-    <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+    
+    <string name="activate_bluetooth">Activate Bluetooth</string>
+    <string name="bluetooth_on">Bluetooth is ON</string>
+    <string name="bluetooth_off">Bluetooth is OFF</string>
+    <string name="activate_bluetooth_checkbox_key">activate_bluetooth_checkbox</string>
+    
+    <string name="setup_controller">1. Setup Controller</string>
+    <string name="pair_with_controller">Pair with controller</string>
+    <string name="no_controller_paired">No controller paired</string>
+    <string name="pair_controller_preference_key">pair_controller_preference</string>
+    <string name="select_controller">Select controller</string>
+    <string name="scan_for_controller">Scan for controller...</string>
+    
+    <string name="setup_ime">2. Setup IME</string>
+    <string name="select_ime">Select IME</string>
+    <string name="select_ime_instructions">Press here to select the SNES IME</string>
+    <string name="select_ime_preference_key">select_ime_preference</string>
 
 </resources>
